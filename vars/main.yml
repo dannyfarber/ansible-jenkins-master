@@ -1,0 +1,6 @@
+jenkins_auth_permissions:
+  job_readers:
+    - `hudson.model.Hudson.Read`
+    - `hudson.model.Item.Discover`
+    - `hudson.model.Item.Read`
+    - `hudson.model.View.Read`
